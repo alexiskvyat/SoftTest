@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.stryker-mutator.io/1.0",
+  "mutator": {
+    "name": "javascript"
+  },
+  "packageManager": "npm",
+  "reporters": [
+    "html",
+    "clear-text",
+    "progress"
+  ],
+  "testRunner": "jest",
+  "coverageAnalysis": "perTest",
+  "jest": {
+    "projectType": "custom",
+    "configFile": "jest.config.cjs"
+  },
+  "mutate": [
+    "app/script.js"
+  ]
+}
