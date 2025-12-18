@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="29.2.7">
   <diagram name="Страница-1" id="hag2mehm7ilrB3_jq_CC">
-    <mxGraphModel dx="9334" dy="5273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2393" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -416,6 +416,129 @@
         </mxCell>
         <mxCell id="ioB1hSWAh7caBUaxgNtM-119" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Хранение файлов" vertex="1">
           <mxGeometry height="30" width="60" x="320" y="2540" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-120" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=1;" value="" vertex="1">
+          <mxGeometry height="350" width="290" x="920" y="2680" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-121" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Клиенты&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="1040" y="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-122" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=5;html=1;whiteSpace=wrap;" value="Рабочее место&amp;nbsp;&lt;div&gt;пользователи (Браузер)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Web UI&amp;nbsp;&lt;/div&gt;&lt;div&gt;- HTML/ CSS./ JS&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="1000" y="2780" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-123" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;" vertex="1">
+          <mxGeometry height="630" width="630" x="1290" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-124" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Сервер&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1320" y="2590" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-126" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=5;html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;ExecuttionEnviroment&amp;gt;&amp;gt;&amp;nbsp;&lt;div&gt;Web Server (Nginx/ Apache)&lt;/div&gt;&lt;div&gt;Node: WebServerEnv&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="180" x="1355" y="2795" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-127" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=5;html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;ExecuttionEnviroment&amp;gt;&amp;gt;&amp;nbsp;&lt;div&gt;App Server (Runtime)&amp;nbsp;&lt;/div&gt;&lt;div&gt;Node: AppServerEnv&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="180" x="1694" y="2785" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-158" edge="1" parent="1" source="ioB1hSWAh7caBUaxgNtM-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=95;exitPerimeter=0;" target="ioB1hSWAh7caBUaxgNtM-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-131" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;ExecuttionEnviroment&amp;gt;&amp;gt;&amp;nbsp;&lt;div&gt;Database Server (PostgreSQL)&lt;/div&gt;&lt;div&gt;Node DatabaseEnv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="1355" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-156" edge="1" parent="1" source="ioB1hSWAh7caBUaxgNtM-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=95;exitPerimeter=0;" target="ioB1hSWAh7caBUaxgNtM-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-133" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;ExecuttionEnviroment&amp;gt;&amp;gt;&amp;nbsp;&lt;div&gt;Fiile Storage / Achive&amp;nbsp;&lt;/div&gt;&lt;div&gt;Node: StorageEnv&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="1680" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-134" edge="1" parent="1" source="ioB1hSWAh7caBUaxgNtM-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=110;exitDy=95;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=85;entryPerimeter=0;dashed=1;" target="ioB1hSWAh7caBUaxgNtM-131">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="2880" />
+              <mxPoint x="1440" y="2989" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-135" edge="1" parent="1" source="ioB1hSWAh7caBUaxgNtM-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=120;exitDy=95;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=85;entryPerimeter=0;dashed=1;" target="ioB1hSWAh7caBUaxgNtM-133">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1780" y="2880" />
+              <mxPoint x="1780" y="2989" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-137" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="proxy / internal HTTPS" vertex="1">
+          <mxGeometry height="30" width="120" x="1430" y="2880" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-138" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SQL" vertex="1">
+          <mxGeometry height="30" width="60" x="1780" y="2880" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-139" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;fontStyle=1" value="&lt;div style=&quot;text-align: left; text-decoration: underline;&quot;&gt;&amp;lt;&amp;lt;artifact &amp;gt;&amp;gt; WebUI Bundle&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-decoration: underline;&quot;&gt;- static files&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="180" x="1360" y="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-140" parent="ioB1hSWAh7caBUaxgNtM-139" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-143" edge="1" parent="1" source="ioB1hSWAh7caBUaxgNtM-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=85;entryPerimeter=0;" target="ioB1hSWAh7caBUaxgNtM-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-144" edge="1" parent="1" source="ioB1hSWAh7caBUaxgNtM-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=55;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=40;entryDy=180;entryPerimeter=0;" target="ioB1hSWAh7caBUaxgNtM-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-147" edge="1" parent="1" source="ioB1hSWAh7caBUaxgNtM-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=30;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=40;entryDy=180;entryPerimeter=0;" target="ioB1hSWAh7caBUaxgNtM-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-149" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;fontStyle=1" value="&lt;br&gt;&lt;div&gt;&lt;div style=&quot;text-align: left; text-decoration: underline;&quot;&gt;&amp;lt;&amp;lt;artifact &amp;gt;&amp;gt; Backend API&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-decoration: underline;&quot;&gt;- moduls: auth, shifts, batches, &amp;nbsp;raw, qc, reports&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="1694" y="2657.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-150" parent="ioB1hSWAh7caBUaxgNtM-149" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-151" edge="1" parent="1" source="ioB1hSWAh7caBUaxgNtM-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=85;entryPerimeter=0;" target="ioB1hSWAh7caBUaxgNtM-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-152" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;fontStyle=0" value="&lt;div style=&quot;text-align: left; text-decoration: underline;&quot;&gt;&amp;lt;&amp;lt;artifact &amp;gt;&amp;gt; BarkeruDB,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-decoration: underline;&quot;&gt;-tables: Users, Shifts, Bathes, &amp;nbsp;RawConsumption, QualityChecks, Reports &amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="180" x="1350" y="3050" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-153" parent="ioB1hSWAh7caBUaxgNtM-152" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-154" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;fontStyle=0" value="&lt;div style=&quot;text-align: left; text-decoration: underline;&quot;&gt;&amp;lt;&amp;lt;artifact &amp;gt;&amp;gt; &amp;nbsp;ReportFiles&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-decoration: underline;&quot;&gt;- PDF / Exel reports&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-decoration: underline;&quot;&gt;- electronic archive&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="180" x="1675" y="3061" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-155" parent="ioB1hSWAh7caBUaxgNtM-154" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-159" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;deploy&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1440" y="3010" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-160" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;deploy&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1770" y="3020" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-161" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;deploy&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1750" y="2950" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-162" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;deploy&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1795" y="2750" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-163" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;deploy&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1460" y="2750" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-167" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=5;html=1;whiteSpace=wrap;" value="&lt;div&gt;&amp;lt;&amp;lt;node&amp;gt;&amp;gt; External System&amp;nbsp;&lt;/div&gt;&lt;div&gt;Node: 1cAccouningServer&amp;nbsp;&lt;/div&gt;&lt;div&gt;- импорт отчетов&amp;nbsp;&lt;/div&gt;&lt;div&gt;- себестоимость &amp;nbsp; &amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="180" x="2110" y="2774" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-168" edge="1" parent="1" source="ioB1hSWAh7caBUaxgNtM-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=30;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=40;entryDy=180;entryPerimeter=0;" target="ioB1hSWAh7caBUaxgNtM-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioB1hSWAh7caBUaxgNtM-169" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1С Бухгалтерия&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="2100" y="2700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
